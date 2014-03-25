@@ -5,7 +5,7 @@ module.exports = ->
 	logger = require 'morgan' 
 	cookieParser = require 'cookie-parser' 
 	bodyParser = require 'body-parser' 
-	config = require '../config' 
+	config = require '../../config' 
 
 	app = express()
 	app.locals.routes = {}

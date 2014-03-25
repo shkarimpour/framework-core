@@ -1,5 +1,5 @@
 module.exports = (di)->
-	paths = require '../config/autoload'
+	paths = require '../../config/autoload'
 	autoload paths.controllersPath,di,initController
 	autoload paths.modelsPath,di,initModel
 	autoload paths.filtersPath,di,initFilter
@@ -12,7 +12,7 @@ autoload = (path,di,init)->
 	name = ""
 	for file in files
 		name = (file.split '.' )[0]
-		init di,(require "../#{path}/#{name}"),name
+		init di,(require "../../#{path}/#{name}"),name
 	true
 
 initController = (di,controller,name)->

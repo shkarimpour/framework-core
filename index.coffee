@@ -3,7 +3,7 @@ module.exports = ->
   #shk modules
   app = (require './app')()
   Routing = require './routing'
-  config = require '../config'
+  config = require '../../config'
   autoload = require './autoload'
 
   #node modules
