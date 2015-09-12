@@ -1,4 +1,1 @@
-framework-core
-==============
-
-core of shk framework
+a simple mvc framework for nodejs
