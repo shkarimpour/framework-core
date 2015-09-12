@@ -1,6 +1,6 @@
 {
   "name": "shk-framework-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "dependencies": {
     "express": "~3.4.8",
